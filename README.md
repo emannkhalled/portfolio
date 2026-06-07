@@ -1,55 +1,50 @@
-# Portfolio
+#  Portfolio Website
 
-## نظرة عامة
+##  Overview
 
-محفظة شخصية تعرض مشاريع واجهات المستخدم وتجربة المستخدم (UI/UX) مع تنفيذ واجهات Frontend.
+This is a personal portfolio website showcasing UI/UX design work and frontend development projects.
 
-هذه المحفظة تحتوي على صفحة رئيسية جذابة، قسم عني، المهارات، مشاريع UI/UX ومشاريع Frontend، إضافةً إلى خبرة وتعليم وخدمات واتصال.
+The portfolio presents a clean, modern, and responsive interface including sections such as About Me, Skills, Projects (UI/UX & Frontend), Experience, Education, Services, and Contact.
 
-## الميزات
+It is designed to reflect both design thinking and frontend development skills in a professional way.
 
-- تصميم متجاوب وسلس
-- ثيم زرقاء/سماوية مع تأثيرات زجاجية
-- تأثيرات حركة وظهور تدريجي للعناصر
-- قسم مشاريع مصممة كبطاقات تبرز المشاريع بشكل احترافي
-- قائمة تنقل ثابتة مع تمييز القسم النشط
-- زر تبديل الثيم بين الوضع الداكن والفاتح
-- نموذج اتصال مدمج مع فتح WhatsApp لارسال الرسائل
+---
 
-## التقنيات المستخدمة
+##  Features
 
-- HTML
-- CSS
-- JavaScript
-- FontAwesome
+- Fully responsive design across all devices
+- Modern blue/cyan theme with glassmorphism effects
+- Smooth animations and scroll-based transitions
+- Active navigation highlighting for better UX
+- Sticky navigation bar for easy access to sections
+- Dark/Light mode toggle
+- Contact form integrated with WhatsApp messaging
+- Clean project showcase cards with structured layout
+
+---
+
+##  Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- Font Awesome Icons
 - Google Fonts
 
-## هيكل المشروع
+---
 
-- `index.html` - الصفحة الرئيسية للمحفظة
-- `styles.css` - تنسيقات التصميم والأنيميشن
-- `script.js` - التفاعلات وجافاسكريبت للتحكم في الثيم والقائمة المتنقلة والتأثيرات
-- `img/` - صور المشروع/assets
-- `profile.jpg` - صورة البروفايل
+##  Project Structure
+portfolio/
+├── index.html → Main landing page
+├── styles.css → Styling, layout & animations
+├── script.js → Interactions & functionality
+├── img/ → Images and assets
+└── profile.jpg → Profile picture
 
-## طريقة التشغيل
+---
 
-يمكنك فتح `index.html` مباشرة في المتصفح.
+##  How to Run the Project
 
-للحصول على تجربة أفضل أثناء التطوير، يمكن استخدام خادم محلي مثل Live Server أو Python HTTP:
+### 1. Direct Run
+Open `index.html` directly in your browser.
 
-```bash
-# باستخدام بايثون 3
-python -m http.server 5500
-```
-
-ثم افتح:
-
-```
-http://localhost:5500
-```
-
-## ملاحظات
-
-- إذا أردت ربط هذا المشروع بـ GitHub Pages، تأكد من تعيين الفرع `main` أو `gh-pages` في إعدادات المستودع.
-- يمكن تحديث المشاريع وروابطها بسهولة داخل قسم `Frontend Dev Projects` في `index.html`.
